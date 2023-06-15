@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NV_gym
+build_property.RootNamespace = NV_gym
+build_property.ProjectDir = D:\VisualStudio\Kowalski_Projekt_4S\NV_gym\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\VisualStudio\Kowalski_Projekt_4S\NV_gym
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/_AddGymForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRHeW1Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/_EditGymForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0R3ltRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ru7qow1kek

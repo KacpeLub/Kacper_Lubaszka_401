@@ -1,0 +1,20 @@
+﻿@model Gym
+
+@{
+    ViewData["Title"] = "Edycja siłowni";
+}
+
+<h1 class="text-center">Panel edycji</h1>
+
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        @Html.Partial("_EditGymForm", Model)
+    </div>
+</div>
+
+<p></p>
+
+<div class="text-center">
+    <a asp-action="List" class="btn btn-outline-secondary btn-sm">Back to List</a>
+</div>

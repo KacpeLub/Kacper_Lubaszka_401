@@ -1,0 +1,19 @@
+﻿@model Gym
+@{
+    ViewData["Title"] = "Dodaj silownie";
+}
+
+<h1 class="text-center">Dodaj nową siłownie</h1>
+
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        @Html.Partial("_AddGymForm", Model)
+    </div>
+</div>
+
+<p></p>
+
+<div class="text-center">
+    <a asp-action="List" class="btn btn-outline-secondary btn-sm">Powrót do listy</a>
+</div>

@@ -1,0 +1,42 @@
+﻿
+@model List<Gym>
+
+@{
+    ViewData["Title"] = "Lista silowni";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Adres</th>
+            <th>Wielkosć</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var gym in Model)
+        {
+            <tr>
+                <td>@gym.Name</td>
+                <td>@gym.City || @gym.Street</td>
+                <td>@gym.Size</td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@gym.Id" class="btn btn-outline-danger" style="width: 90px">Usuń</a>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@gym.Id" class="btn btn-outline-primary" style="width: 90px">Edytuj</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@gym.Id" class="btn btn-outline-info" style="width: 90px">Szczegóły</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
