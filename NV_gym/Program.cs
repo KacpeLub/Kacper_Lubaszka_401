@@ -4,6 +4,13 @@ using NV_gym.Services;
 using NV_gym.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages().AddMvcOptions(options => 
+{ 
+    options.MaxModelValidationErrors = 50; 
+    options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor
+    (_ => "Pole Wiek jest wymagane."); 
+});
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

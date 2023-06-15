@@ -21,7 +21,6 @@ namespace NV_gym.Services
 		public int Save(Gym gym)
 		{
 			_context.Add(gym);
-			if(_context.SaveChanges() > 0) { System.Console.WriteLine("SUKCES"); };
 			return 1;
 		}
 

@@ -43,9 +43,6 @@ namespace NV_gym.Controllers
 
             var id = _gymService.Save(body);
 
-            ViewData["ProductId"] = body.Id;
-            TempData["ProductId"] = body.Id;
-
             return RedirectToAction("Add");
         }
 
@@ -105,9 +102,9 @@ namespace NV_gym.Controllers
 
             if (!ModelState.IsValid)
             {
-                return View("Update", updatedGym);
+                return RedirectToAction("Edit", updatedGym);
             }
-
+      
             _gymService.Update(id, updatedGym);
 
             return RedirectToAction("List");
