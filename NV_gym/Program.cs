@@ -8,7 +8,7 @@ builder.Services.AddRazorPages().AddMvcOptions(options =>
 { 
     options.MaxModelValidationErrors = 50; 
     options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor
-    (_ => "Pole Wiek jest wymagane."); 
+    (_ => "Pole 'Wiek' jest wymagane."); 
 });
 
 
