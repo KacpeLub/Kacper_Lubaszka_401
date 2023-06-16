@@ -40,7 +40,7 @@ namespace NV_gym.Services
         public int Update(int id, Gym gym)
         {
             var updatedGym = _context.Gyms.Find(id);
-            if (updatedGym != null)
+            if (updatedGym != null)  //to raczej i tak nie potrzebne bo nie dostaniemy nie-istniejacago id 
             {
                 updatedGym.Name = gym.Name;
                 updatedGym.City = gym.City;

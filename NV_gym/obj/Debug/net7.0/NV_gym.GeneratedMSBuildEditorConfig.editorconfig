@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Gym/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3ltXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Home/Kontakt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb250YWt0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VisualStudio/Kowalski_Projekt_4S/NV_gym/Views/Shared/Error.cshtml]

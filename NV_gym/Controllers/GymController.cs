@@ -12,20 +12,6 @@ namespace NV_gym.Controllers
         {
              _gymService = gymService;
         }
-        public IActionResult Index()
-        {
-            var silownia = new Gym
-            {
-                Id = 1,
-                Name = "NidavellirWiejska",
-                City = "Warszawa",
-                Street = "Wiejska 16",
-                Size = 280,
-				Description = "Najlepsza silownia pod sloncem"
-            };
-
-            return View(silownia);
-        }
 
         [HttpGet]
         public IActionResult Add()

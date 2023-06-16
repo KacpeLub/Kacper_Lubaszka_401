@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Kontakt";
+}
+<h1 class = "text-center">@ViewData["Title"]</h1>
+<hr/>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <h3>Informacje kontaktowe:</h3>
+            <p><strong>Adres:</strong> ul. Wieżowa 09/11, 07-000 Warszawa</p>
+            <p><strong>Telefon:</strong> 420-213-769</p>
+            <p><strong>Email:</strong> kontakt@nidavellir.com</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <h3>Formularz kontaktowy:</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Imię i nazwisko:</label>
+                    <input type="text" class="form-control" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adres email:</label>
+                    <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Wiadomość:</label>
+                    <textarea class="form-control" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Wyślij</button>
+            </form>
+        </div>
+    </div>
+</div>
